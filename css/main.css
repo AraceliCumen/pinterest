@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+
+header{
+    position: fixed;
+    background-color: #fff;
+}
+
+.topmenu{
+    padding: 10px 0;
+    width: 100%;
+    margin:0;
+    border-bottom: 1px solid #d3d3d3;
+    display: inline-block;
+    text-align: center !important;
+}
+
+.topmenu li{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.topmenu li .logopinterest{
+    color: #bd081c;
+}
+
+.topmenu li a{
+    padding: 0;
+    text-decoration: none;
+}
