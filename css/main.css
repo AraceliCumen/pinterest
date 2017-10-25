@@ -36,8 +36,9 @@ header{
     text-decoration: none;
 }
 
-.topmenu li i{
-  padding: 0;
+.icon-pinterest{
+  font-size: 40px;
+  color: #BD081C;
 }
 
 .fa {
@@ -47,49 +48,21 @@ header{
   text-rendering:auto;
 }
 
-.fa-lg{
-    font-size: 1.33333333em;
+.icon-user{
+  font-size: 25px;
+  color: #b5b5b5;
 }
 
-.fa-inverse {
-    color: #fff;
+.icon-menu{
+  font-size: 25px;
+  color: #b5b5b5;
 }
 
-.fa-stack{
-  position: relative;
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-  line-height: 16px;
-  vertical-align: middle;
-}
-.fa-stack-1x{
-  line-height: inherit;
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center;
+.icon-bubble2{
+  font-size: 25px;
+  color: #b5b5b5;
 }
 
-.fa-stack-2x{
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-
-.fa-circle:before {
-    content: "\f111";
-}
-
-.fa-pinterest:before {
-    content: "\f0d2";
-}
-
-
-ul{
-  list-style-type: disc;
-}
 
 .bottommenu{
   margin: 0;
@@ -160,7 +133,7 @@ input{
 
 .imagenes {
     padding: 0 80px;
-    margin-top: 200px;
+    margin-top: 180px;
     column-width: 220px;
     column-count: 4;
     column-gap: 20px;
@@ -189,4 +162,15 @@ input{
   float: left;
   width: 70%;
   margin-top: 15px;
+}
+
+
+.imagenes .post h4 {
+    margin-bottom: 10px;
+}
+
+
+h4 {
+    display: block;
+    font-weight: bold;
 }
