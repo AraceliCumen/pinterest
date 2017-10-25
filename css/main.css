@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro',sans-serif;
+    box-sizing: border-box;
 }
-
 
 header{
     position: fixed;
     background-color: #fff;
+    width: 100%;
 }
 
 .topmenu{
@@ -19,7 +20,7 @@ header{
     text-align: center !important;
 }
 
-.topmenu li{
+.topmenu li {
     font-size: 16px;
     font-weight: 700;
     padding: 0 5px;
@@ -27,10 +28,165 @@ header{
 }
 
 .topmenu li .logopinterest{
-    color: #bd081c;
+  color: #bd081c;
 }
 
 .topmenu li a{
     padding: 0;
     text-decoration: none;
+}
+
+.topmenu li i{
+  padding: 0;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering:auto;
+}
+
+.fa-lg{
+    font-size: 1.33333333em;
+}
+
+.fa-inverse {
+    color: #fff;
+}
+
+.fa-stack{
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 16px;
+  vertical-align: middle;
+}
+.fa-stack-1x{
+  line-height: inherit;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fa-stack-2x{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fa-circle:before {
+    content: "\f111";
+}
+
+.fa-pinterest:before {
+    content: "\f0d2";
+}
+
+
+ul{
+  list-style-type: disc;
+}
+
+.bottommenu{
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.bottommenu .botones{
+  background-color: #746051;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 6px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.bottommenu .botones p.light{
+  background-color: rgba(194,149,110,.5);
+  padding: 20px 25px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.bottommenu .botones p.obs{
+  padding: 20px 25px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+
+.topmenu .buscador{
+  background-color: #efefef;
+  border-radius: 5px;
+  margin: 0 16px;
+  width: 70%;
+  padding: 8px;
+  display: inline-block;
+}
+
+.topmenu .buscador .lupa input{
+  width: 93%;
+  border: none;
+  line-height: 20px;
+  font-size: 18px;
+  outline: 0;
+  background-color: transparent;
+}
+
+input{
+  width: 93%;
+  border: none;
+  line-height: 20px;
+  font-size: 18px;
+  outline: 0;
+  background-color: transparent;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-rendering: auto;
+  display: inline-block;
+  text-align: start;
+  cursor:auto;
+}
+
+.imagenes {
+    padding: 0 80px;
+    margin-top: 200px;
+    column-width: 220px;
+    column-count: 4;
+    column-gap: 20px;
+    display: inline-block;
+}
+
+
+.imagenes .post{
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+
+.imagenes .post img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.image{
+  max-width: 100% !important;
+  border-radius: 6px;
+}
+
+.imagenes .post .text{
+  float: left;
+  width: 70%;
+  margin-top: 15px;
 }
