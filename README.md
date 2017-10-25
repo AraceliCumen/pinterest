@@ -6,4 +6,4 @@
 
 ## Resultados
 
- ![Proyecto Pinterest](assets/imgs/results/result.png "Pinterest")
+ ![Proyecto Pinterest](assets/imgs/results/result.png "Proyecto Pinterest")
